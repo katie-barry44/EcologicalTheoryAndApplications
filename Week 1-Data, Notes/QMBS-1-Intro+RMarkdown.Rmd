@@ -1,0 +1,57 @@
+---
+title: "QMBS-1-Intro+RMarkdown"
+author: "Katie Barry"
+date: "11/12/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**LEARNING GOAL** Our goal for this morning is to get you oriented and comfortable with R and how using the tutorials will work. 
+
+##Part 1: Some notes on the tutorials included in this course. 
+
+1. R code is  always presented as a gray box like this one:  
+```{r codeinthewild}
+# A chunk of code 
+a<-1
+print(a)
+```
+
+2. Anything in a chunk of code that appears with a # before it is a "comment". R doesn't see these as code.   
+
+```{r comments}
+#This is a comment, R doesn't see this as code 
+#1+2 
+1+2 
+```
+
+3. The help function is your best friend! If you type in a "?" before the name of a function in R then the help documentation on that function will come up. This help documentation always has information on the usage, the arguments that the function can take, and some reproducible examples.   
+
+```{r thehelpfunction}
+?help()
+#This shows you the help documentation for the "help" function 
+```
+
+4. When you are using R in R studio, R saves your objects in the "global environment".   
+
+![Screenshot of the global environment in R Studio](GlobalEnv.png)
+
+Sometimes you need to clear this out. The command rm(list=ls()) clears everything out of your global environment. Or you can use the little broom icon! 
+
+```{r clearingyourglobalenvironment}
+rm(list=ls())
+```
+
+
+```{r}
+dragon.height<-read.csv("./data/DragonHeight.csv")
+
+help(read.csv)
+
+?read.csv()
+
+```
+
