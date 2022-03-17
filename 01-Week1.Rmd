@@ -167,7 +167,7 @@ You are going to examine how competition between individuals structures societie
   *Would you say that the resources are evenly distributed across the game board? Are there resource hotspots?* 
 
 7.Play through the game. 
-8.	At the end of the game screenshot the results of your game and answer the following questions 
+8.	At the end of the game screenshot the overview of your game and the "resource stats" and answer the following questions 
   a.)	Who in the group do you perceive to be the strongest competitor? 
   b.)	Why? Do they have the most total resources? Did they specialize on a single resource? 
   c.)	What role does luck play in the game? 
@@ -179,7 +179,7 @@ You are going to examine how competition between individuals structures societie
 
 Now – you are going to repeat the game but this time – you cannot trade with your fellow players. 
 
-*Don't forget to screenshot the starting map and end results, we will use these on Friday* 
+*Don't forget to screenshot the starting map and end results overview and "res stats", we will use these on Friday* 
 
 At the end of the game answer the following questions 
   a.)	Who in the group do you perceive to be the strongest competitor? 
@@ -200,7 +200,7 @@ At the end of the game answer the following questions
         How does competition in this example influence the distribution of resources?
     d.) Can you think of cultures that have more competitive versions of the example you came up with? How does the increased competition influence the distribution of resources in this example? 
     e.) Can you think of cultures that have less competitive versions of the example you came up with? How does the lessened competition influence the distribution of resources in this example? 
-3. As a group - work through the Rmarkdown file in the One Drive for today labeled "Day3-ModelingCompetitionInR.Rmd".
+3. As a group - work through the Rmarkdown file in the One Drive for today labeled "Day3-ModelingIntraspecificCompetitionInR.Rmd".
 
 
 

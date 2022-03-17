@@ -1,0 +1,51 @@
+---
+title: "Day7-ModelingTheEnvironment"
+author: "Katie Barry"
+date: "`r Sys.Date()`"
+output: html_document
+---
+**LEARNING GOALS** Today we have two goals:
+1. Take our organisms and put them into an environment in two ways - 
+  a.) Implicitly 
+  b.) Explicitly
+2. Give our organisms something to compete/facilitate over - resources. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(primer)
+```
+
+So far - our species/players have existed in a vacuum. They are able to reproduce without being limited by the environment around them. This is unrealistic! 
+
+Today we are going to think of our organisms as microbes. Our microbes come in two varieties: 
+1. Anaerobic - don't require oxygen 
+2. Aerobic - do require oxygen 
+
+These different types of microbes are going to behave super differently depending on the environment that they are in. Because their environment affects their ability to grow their population (r), we can model this implicitly by changing their r. That means when the environment is favorable r is large. But when the environment is not favorable their r is small. 
+
+### Part 1: Review 
+
+Let's review our model of interspecific competition for a moment. 
+
+Each species has a starting value (y0) each species  the model runs for a certain number of timesteps (t). 
+Each species also has an r which is their growth rate and then two alphas, one for their own self-limitation and one for how much they are limited by the other species.
+
+```{r modeling competition between two species in R}
+#starting both populations at 0 individuals
+y0<-c(1,1)
+
+#the time points that the model will run for
+t<-0:100
+
+#setting the parameters
+p<-c(r1=0.1, r2=0.1, a11=0.02, a12=0.01, a21=0.02, a22=0.01)
+
+#note that I have changed the func to "lvcomp2" this is the function for competition in this package
+out <- ode(y=y0, times=t, func=lvcomp2, parms=p)
+
+plot(out)
+```
+
+In this scenario - both species can survive!! Woo hoo! 
+
+But what happens if the environment is strongly limited 

@@ -106,7 +106,14 @@
 <li class="chapter" data-level="2.2.4" data-path="week1.html"><a href="week1.html#section-2-installing-packages"><i class="fa fa-check"></i><b>2.2.4</b> Section 2: Installing packages<span></span></a></li>
 <li class="chapter" data-level="2.2.5" data-path="week1.html"><a href="week1.html#section-3-r-markdown"><i class="fa fa-check"></i><b>2.2.5</b> Section 3: R Markdown<span></span></a></li>
 <li class="chapter" data-level="2.2.6" data-path="week1.html"><a href="week1.html#section-4-loading-data-getting-help-writing-basic-commands"><i class="fa fa-check"></i><b>2.2.6</b> Section 4: Loading data, getting help, writing basic commands<span></span></a></li>
+<li class="chapter" data-level="2.2.7" data-path="week1.html"><a href="week1.html#section-5-getting-help-in-r"><i class="fa fa-check"></i><b>2.2.7</b> Section 5: Getting help in R<span></span></a></li>
 </ul></li>
+<li class="chapter" data-level="2.3" data-path="week1.html"><a href="week1.html#the-game"><i class="fa fa-check"></i><b>2.3</b> The Game<span></span></a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="week1.html"><a href="week1.html#step-1---getting-to-know-the-game"><i class="fa fa-check"></i><b>2.3.1</b> Step 1 - Getting to know the game<span></span></a></li>
+<li class="chapter" data-level="2.3.2" data-path="week1.html"><a href="week1.html#step-2-making-competition-stronger."><i class="fa fa-check"></i><b>2.3.2</b> Step 2: Making competition stronger.<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="week1.html"><a href="week1.html#day-3---29.4.2022"><i class="fa fa-check"></i><b>2.4</b> Day 3 - 29.4.2022<span></span></a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -219,10 +226,115 @@ You don’t have to go through all of the materials there but they are all super
 <h3><span class="header-section-number">2.2.6</span> Section 4: Loading data, getting help, writing basic commands<a href="week1.html#section-4-loading-data-getting-help-writing-basic-commands" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We are going to be using R to do a lot of things but there are three basic things that you are going to do almost every day: load data, use the help function, and try to solve problems. Usually we are going to keep all of our documentation and assignments in an R markdown file for each day but today you will be typing in commands into your R markdown file that you created as an “about me” instead.</p>
 <p>R does a lot of things really well and for the most part we are going to use R to work with data but it’s rather cumbersome to enter data in R. The most common way to handle this is to do basic data entry in Excel and then all of our data manipulation and statistics in R. If we do the manipulation in R then we always have a record of what we’ve done. This increases the repeatability of it but also the transparency of our data manipulation. If you do your data manipulation in excel – you might forget that you log transformed a variable. If you do this in R – the record is always there and you can easily send the file to your advisor and they can see that you have/have not transformed your data.</p>
-<p>Data that you’ve entered into Excel has to be formatted properly to be read by R. R easily reads files that are saved as a .csv file. But .csv files have lots of formats – to avoid issues between all of our different R’s and excels – before you ever load data into R, we need to check our data format. The majority of science is done with a period (.) as the decimal marker and the comma (,) as the thousand separator. This is also R’s default but depending on where you bought your computer – it may not be the default on your computer. There are two ways you can change this:
-1. In your computer under language and region settings – on my computer it looks like this:</p>
-
+<ul>
+<li>Important - COPY THE FOLDER called “data” into your project directory *</li>
+</ul>
+<p>Data that you’ve entered into Excel has to be formatted properly to be read by R. R easily reads files that are saved as a .csv file. But .csv files have lots of formats – to avoid issues between all of our different R’s and excels – before you ever load data into R, we need to check our data format. The majority of science is done with a period (.) as the decimal marker and the comma (,) as the thousand separator. This is also R’s default but depending on where you bought your computer – it may not be the default on your computer. To change this:
+1. In your computer under language and region settings – on my computer it looks like this: <img src="images/01-01-Mac.png" alt="Mac settings for language" />
+2. On a windows computer, it will look like this: <img src="images/01-02-Windows.png" alt="Windows settings for language" /></p>
+<p>The command that we use to read data into R most often is read.csv(). Read.csv() is made to deal with .csv documents. If you have your settings properly set then all you need to do is tell R what the name of the file is and where to find it. Because we have our R project set up and the csv file properly saved this is pretty easy.</p>
+<div class="figure">
+<img src="images/01-03-ReadingData.png" alt="" />
+<p class="caption">Showing what the code looks like</p>
 </div>
+<p>Once we’ve got our data read in – it appears in our global environment:</p>
+<div class="figure">
+<img src="images/01-04-GlobalEnv.png" alt="" />
+<p class="caption">Showing the global environment</p>
+</div>
+</div>
+<div id="section-5-getting-help-in-r" class="section level3 hasAnchor" number="2.2.7">
+<h3><span class="header-section-number">2.2.7</span> Section 5: Getting help in R<a href="week1.html#section-5-getting-help-in-r" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>One of the most helpful tools in R is the help() documentation. For any command you can ask for help from R in two ways:
+1. help(name of the command)
+2. ?name of the command</p>
+<p>The anatomy of an R help file:</p>
+<p>All R help files are formatted in the same way. They don’t always have all of the sections but they always follow the same general pattern.</p>
+<p>Some commands are similar enough that they are grouped together or they are different versions of the same thing. For example, the read.csv() help file shows you the results for read.table() because read.csv is a specific version of read.table()</p>
+<p>The main pieces that we care about are:</p>
+<p>Description – tells you what the command does</p>
+<p>Usage – shows you what the command looks like and the different parts of the command. But this doesn’t mean we have to use every part. If you think about our read.csv() example, we only used one part – the name of the file. This is because we made the format of our data match the default values for the rest of the command. Anything you don’t specify with an argument uses the default. The defaults are given in the usage of the help file.
+For read.csv() it looks like this: <img src="images/01-05-Read.csv.Help.png" alt="read.csv() help header" /></p>
+<p>These are the arguments we can specify where the defaults for read.csv() are different than for read.table(). The “…” at the end tells us that we can use any of the arguments from read.table().</p>
+<p>Arguments – these are the options for things we can specify with a description of what can be done with each one.</p>
+<p>Examples – Gives you examples of the command in action that you can adapt for your own script.</p>
+<p>Take a moment to look at the help documentation for the following commands:
+Read.csv()
+Rm()
+Help()</p>
+<p>Some R problems are really common – so common in fact that R Studio has cheat sheets for them. You can find them in the help menu in the tool bar. I have printed copies of these taped up behind my desk because I reference them so frequently.</p>
+<p>Another major way you can get help on an R problem is just by googling, the best search terms for finding solutions are pretty specific, my go to formulas are:
+- When I get an error – Copy/pasted error message + R + What I was trying to do
+- When I’m trying to do something specific – What I am trying to do + R
+- When I am having trouble figuring out a command – command name + R + package name</p>
+<p>A lot of the things you will find will be places like StackOverflow – which focus on reproducible examples that you can then use in your code. Focus on answers that have lots of upvotes!</p>
+<p>A final addition to your R markdown document:
+You’ve received the following error – <img src="images/01-06-ErrorInR.png" alt="Error in R" /></p>
+<p>How do you fix this issue?</p>
+<p><em>Don’t forget to save your .Rmd file into today’s folder labeled “To Submit!”</em></p>
+<p>To do’s before Friday: work through the section labeled “the game” with your assigned group.</p>
+</div>
+</div>
+<div id="the-game" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> The Game<a href="week1.html#the-game" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Objectives –
+1. Get to know each other, break the ice!
+2. Think through the consequences of competition for human interactions
+3. Understand how cooperation changes the competitive dynamics
+4. Understand how the initial distribution of resources influences competitive dynamics
+5. Understand how chance influences competitive dynamics</p>
+<p>“Survival of the fittest” is a core principle of modern biology. Resources are limited. Individuals compete for those limited resources. In nature – the ones that can’t compete die. Between species, competition works the same way. Species that compete better, grow faster and are able to get more resources. This principle is the baseline of ecological thought. We assume that species competition underlies all ecological communities. The theory of competition in Ecology comes entirely from models that were meant to describe humans. The first models of competition were developed by philosophers and economists who were trying to understand human population growth. They described competition among individuals for limiting resources as the predominant limiting factor for populations.</p>
+<p>You are going to examine how competition between individuals structures societies as a group through a game of Settlers of Catan. We will discuss this case-study and extend it further to modern social and ecological systems in class on Friday.</p>
+<div id="step-1---getting-to-know-the-game" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Step 1 - Getting to know the game<a href="week1.html#step-1---getting-to-know-the-game" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Go to [online free settlers of catan] (www.colonist.io)<br />
+</li>
+<li>Create a room</li>
+<li>Invite your group mates to join you, set the game up so that it is private and hop onto the video chat platform of your choice</li>
+<li>Set up a tutorial game and play through it as a group</li>
+<li>Once you’ve played through the tutorial. Set up a private game.</li>
+<li>Take a screenshot of your starting map and save it for future reference.
+<em>Would you say that the resources are evenly distributed across the game board? Are there resource hotspots?</em></li>
+</ol>
+<p>7.Play through the game.
+8. At the end of the game screenshot the results of your game and answer the following questions
+a.) Who in the group do you perceive to be the strongest competitor?
+b.) Why? Do they have the most total resources? Did they specialize on a single resource?
+c.) What role does luck play in the game?
+d.) What role does the starting distribution of the resources play in the game?
+e.) Why do you think that the winner won?
+f.) How did competition play out in this game? Did all players compete with other equally or were their biases in who competed with who?</p>
+</div>
+<div id="step-2-making-competition-stronger." class="section level3 hasAnchor" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Step 2: Making competition stronger.<a href="week1.html#step-2-making-competition-stronger." class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Now – you are going to repeat the game but this time – you cannot trade with your fellow players.</p>
+<p><em>Don’t forget to screenshot the starting map and end results, we will use these on Friday</em></p>
+<p>At the end of the game answer the following questions
+a.) Who in the group do you perceive to be the strongest competitor?
+b.) Why? Do they have the most total resources? Did they specialize on a single resource?
+c.) What role does luck play in the game?
+d.) What role does the starting distribution of the resources play in the game?
+e.) Why do you think that the winner won?
+f.) How did refusing to trade change the game?
+g.) How did competition play out in this game? Did all players compete with other equally or were their biases in who competed with who?</p>
+</div>
+</div>
+<div id="day-3---29.4.2022" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Day 3 - 29.4.2022<a href="week1.html#day-3---29.4.2022" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li>Watch the lecture -</li>
+<li>Discuss with your group:
+a.) How do you think competition interacts with your daily life?
+b.) Do you think competition has an overall positive or negative impact on your life?
+c.) How does competition structure Dutch society? Think of one discrete example.
+For example - Does competition influence interactions inside universities in the Netherlands?
+How does competition in this example influence the distribution of resources?
+d.) Can you think of cultures that have more competitive versions of the example you came up with? How does the increased competition influence the distribution of resources in this example?
+e.) Can you think of cultures that have less competitive versions of the example you came up with? How does the lessened competition influence the distribution of resources in this example?</li>
+<li>As a group - work through the Rmarkdown file in the One Drive for today labeled “Day3-ModelingCompetitionInR.Rmd.”</li>
+</ol>
+
 </div>
 </div>
             </section>

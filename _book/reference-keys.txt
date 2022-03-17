@@ -24,3 +24,9 @@ section-1-creating-an-r-markdown-document-getting-to-know-the-r-studio-interface
 section-2-installing-packages
 section-3-r-markdown
 section-4-loading-data-getting-help-writing-basic-commands
+section-5-getting-help-in-r
+the-game
+step-1---getting-to-know-the-game
+step-2-making-competition-stronger.
+day-3---29.4.2022
+topic-r-studio-a-scavenger-hunt
