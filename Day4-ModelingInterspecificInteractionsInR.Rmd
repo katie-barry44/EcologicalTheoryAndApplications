@@ -56,7 +56,6 @@ t<-0:100
 #setting the parameters
 p<-c(r1=1, r2=0.1, a11=0.2, a12=0.1, a21=0.02, a22=0.01)
 
-#note that I have changed the func to "lvcomp2" this is the function for competition in this package
 out <- ode(y=y0, times=t, func=lvcomp2, parms=p)
 
 plot(out)

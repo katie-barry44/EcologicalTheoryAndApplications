@@ -5,10 +5,8 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 **LEARNING GOALS** Today we have two goals:
-1. Take our organisms and put them into an environment in two ways - 
-  a.) Implicitly 
-  b.) Explicitly
-2. Give our organisms something to compete/facilitate over - resources. 
+1. Take our organisms and put them into an environment
+2. Understand the difference between implicit changes in the environment
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -31,14 +29,14 @@ Each species has a starting value (y0) each species  the model runs for a certai
 Each species also has an r which is their growth rate and then two alphas, one for their own self-limitation and one for how much they are limited by the other species.
 
 ```{r modeling competition between two species in R}
-#starting both populations at 0 individuals
+#starting both populations at 1 individuals
 y0<-c(1,1)
 
 #the time points that the model will run for
 t<-0:100
 
 #setting the parameters
-p<-c(r1=0.1, r2=0.1, a11=0.02, a12=0.01, a21=0.02, a22=0.01)
+p<-c(r1=1, r2=1, a11=0.2, a12=0.1, a21=0.1, a22=0.2)
 
 #note that I have changed the func to "lvcomp2" this is the function for competition in this package
 out <- ode(y=y0, times=t, func=lvcomp2, parms=p)
@@ -48,4 +46,48 @@ plot(out)
 
 In this scenario - both species can survive!! Woo hoo! 
 
-But what happens if the environment is strongly limited 
+### Part 2: Modeling the environment implicitly.
+
+But what happens if the environment strongly limits one of our species. We can model this by making their r and their interspecific alpha very low because they can't reproduce or compete when they are in a system that they can't survive in. 
+
+For example, if species 1 is an aerobic bacteria who suddenly finds themselves in an anaerobic environment. Let's look at what happens when it is by itself
+```{r }
+#starting the species off at 1 individual
+y0<-c(1)
+
+#the time points that the model will run for
+t<-0:100
+
+#setting the parameters
+p<-c(r=0.000001, alpha=0.2)
+
+#note that I have changed the func to "lvcomp2" this is the function for competition in this package
+out <- ode(y=y0, times=t, func=clogistic, parms=p)
+
+plot(out)
+```
+
+Here you can see that the population grows - but it does so SUPER slowly (our increase on the y axis is 0.00008 or not even a full individual).  
+
+If we put this species in a community with another species who is facultatively anaerobic (i.e. they can reproduce in anaerobic conditions):
+
+```{r changing the environment implicitly}
+#starting both populations at 1 individuals
+y0<-c(1,1)
+
+#the time points that the model will run for
+t<-0:100
+
+#setting the parameters
+p<-c(r1=0.00001, r2=1, a11=0.2, a12=0.2, a21=0.00001, a22=0.2)
+
+#note that I have changed the func to "lvcomp2" this is the function for competition in this package
+out <- ode(y=y0, times=t, func=lvcomp2, parms=p)
+
+plot(out)
+```
+
+Questions: 
+1. What happens to our aerobic species in a suddently anaerobic environment? 
+2. Does population change happen quickly or slowly? 
+
