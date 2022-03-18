@@ -145,9 +145,9 @@ As you know from lecture, we assume that the growth of a population depends on t
 Density dependent growth means that the growth of a *population* depends on three things: 
 1. N - The number of individuals that are in a population. 
 2. r - the species growth/reproduction rate. r can be any number, small values mean that the population grow slowly (think whales). Large numbers mean that the population grows quickly (think rabbits). 
-3. alpha - the effect of an individual on its population, can be a number from 0 to 1 (we will talk about negative values later). Larger values indicate strong limitation. Smaller values indicate weak limitation.
+3. alpha - the effect of an individual on its population, can be a number from 0 to 1 (we will talk about negative values later). Larger values indicate strong limitation. Smaller values indicate weak limitation. 
 
-Alpha is often also called the "competition coefficient". When we are talking about a single species - alpha shows us how limiting that species is on itself. When we are talking about multiple species, each species has an alpha for itself and for the other species it is around. 
+Alpha is often also called the "competition coefficient". When we are talking about a single species - alpha shows us how limiting that species is on itself (inTRAspecific competition). When we are talking about multiple species, each species has an alpha for itself and for the other species it is around (inTERspecific competition). 
 
 If we want to show what happens in a population in isolation - we can use the command - clogistic() from the primer package. 
 

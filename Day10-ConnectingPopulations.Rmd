@@ -1,0 +1,49 @@
+---
+title: "Day10-AddingImmigration"
+author: "Katie Barry"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+**LEARNING GOALS** Today we have two goals:
+1. Understand how connectedness can change the dynamics of a population 
+2. Develop hypotheses for populations that are connected vs. unconnected
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(primer)
+```
+
+### Part 1: Review 
+
+Let's think back to the beginning of the course where we focused on a single population of individuals. We used the function clogistic() to model single species population dynamics. 
+
+This function had two parameters: 
+r - the rate of population increase or birth rate 
+alpha - the self limitation coefficient or intraspecific competition coefficient 
+
+```{r reviewing single population growth}
+y0<-c(1)
+
+#the time points that the model will run for
+t<-0:100
+
+#setting the parameters
+p<-c(r=0.1, alpha=0.2)
+
+#note that I have changed the func to "lvcomp2" this is the function for competition in this package
+out <- ode(y=y0, times=t, func=clogistic, parms=p)
+
+plot(out)
+```
+
+This function models our population in isolation. Individuals are being born but no additional are coming in via other methods and no individuals are leaving. This model thinks of a population as an isolated group of individuals. 
+
+### Part 2: Introducing the meta-population 
+
+Outside - groups of species are connected to each other. 
+
+For example: 
+![Meta populations to populations](./images/10-01-MetapopulationPopulation.png)
+
+

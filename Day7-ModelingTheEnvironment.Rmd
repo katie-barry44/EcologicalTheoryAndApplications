@@ -6,7 +6,7 @@ output: html_document
 ---
 **LEARNING GOALS** Today we have two goals:
 1. Take our organisms and put them into an environment
-2. Understand the difference between implicit changes in the environment
+2. Understand the difference between implicit changes in the environment and explicit changes in the environment
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -51,7 +51,7 @@ In this scenario - both species can survive!! Woo hoo!
 But what happens if the environment strongly limits one of our species. We can model this by making their r and their interspecific alpha very low because they can't reproduce or compete when they are in a system that they can't survive in. 
 
 For example, if species 1 is an aerobic bacteria who suddenly finds themselves in an anaerobic environment. Let's look at what happens when it is by itself
-```{r }
+```{r single species environment limited}
 #starting the species off at 1 individual
 y0<-c(1)
 
