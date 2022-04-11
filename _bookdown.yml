@@ -4,3 +4,6 @@ language:
   ui:
     chapter_name: "Week "
 delete_merged_file: true
+edit: https://github.com/katie-barry44/EcologicalTheoryAndApplications/edit/master/%s
+view: https://github.com/Ykatie-barry44/EcologicalTheoryAndApplications/blob/master/%s
+

@@ -1,5 +1,5 @@
 ---
-title: "Day7-ModelingTheEnvironment"
+title: "Day8-ModelingTheEnvironment"
 author: "Katie Barry"
 date: "`r Sys.Date()`"
 output: html_document
