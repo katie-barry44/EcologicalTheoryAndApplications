@@ -1,0 +1,93 @@
+---
+title: "Day13-Communities to metacommunities"
+author: "Katie Barry"
+date: "`r Sys.Date()`"
+output: html_document
+---
+**LEARNING GOALS** We have two major learning goals for today: 
+1. Scale up our community into a metacommunity
+2. Understand the consequences of connection within a metacommunity
+3. Brainstorm ways in which we can make out meta-community more realistic 
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(primer)
+source("./functions/lv.metacommunity.function.R")
+```
+
+### Part 1: Reviewing models of communities 
+
+Let's review our model of interspecific competition for a moment. 
+
+Each species has a starting value (y0) each species  the model runs for a certain number of timesteps (t). 
+Each species also has an r which is their growth rate and then two alphas, one for their own self-limitation and one for how much they are limited by the other species.
+
+```{r modeling competition between two species in R}
+#starting both populations at 1 individuals
+y0<-c(1,1)
+
+#the time points that the model will run for
+t<-0:100
+
+#setting the parameters
+p<-c(r1=1, r2=1, a11=0.2, a12=0.1, a21=0.1, a22=0.2)
+
+
+out <- ode(y=y0, times=t, func=lvcomp2, parms=p)
+
+plot(out)
+```
+
+In this scenario - both species can survive!! Woo hoo! 
+*Review questions*
+1. What happens when you change the alphas? 
+2. What happens when you change r? 
+
+
+### Part 2: Adding in a metacommunity 
+
+Let's review the concept of meta...
+
+A metapopulation is a group of connected populations. Populations have only one species. 
+
+If we extrapolate this idea to communities, a metacommunity is a group of connected communities! 
+
+That means that in addition to our birth rate and our interaction coefficients (alpha11, alpha12, etc) each species also is embedded in it's own meta-population and therefore can have immigration and emigration. 
+
+For this we use a function that I wrote, it has the same parameters as our interspecific interaction model (above) with the addition of: 
+ci1 - the immigration of species 1
+ci2 - the immigration of species 2
+e1- the emigration of species 1 
+e2 - the emigration of species 2
+```{r}
+#starting both populations at 1 individuals
+y0<-c(1,1)
+
+#the time points that the model will run for
+t<-0:100
+
+#setting the parameters
+p<-c(r1=1, r2=1, a11=0.2, a12=0.1, a21=0.1, a22=0.2, ci1=1, ci2=1, e1=1, e2=1)
+
+#note that I have changed the func to "lv.metacommunity" this is the function that I have written to show you a meta-community model
+out <- ode(y=y0, times=t, func=lv.metacommunity, parms=p)
+
+plot(out)
+```
+
+What do you notice about these plots? How do they compare from our earlier versions of interspecific interactions? 
+
+Play around with the values for ci1 and ci2, e1 and e2 and answer the following questions. 
+
+*Questions*
+1. What happens when ci1 is low but ci2 is high? (hint - try changing ci2 to 10)
+2. What happens when e1 is low but e2 is high? (hint-try changing e2 to 10)
+3. How do these changes compare to changes in r or one of our alphas? 
+
+### Part 3: Thinking about realism
+
+In the scenarios that I've described - all immigration and emigration are coming and going from **the ether**. They don't have a source. We don't see what's going on in the space around the species. Brainstorm 5 ways that we can make this situation closer to the reality that you see outside your window. 
+
+
+
