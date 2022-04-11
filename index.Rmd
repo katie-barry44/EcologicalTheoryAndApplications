@@ -1,0 +1,139 @@
+--- 
+title: "Ecological Theory and Application"
+author: "Dr. Katie Barry"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: https://github.com/katie-barry44/EcologicalTheoryAndApplications
+description: "These are the course materials for Ecological Theory and Application in period 4, 2022 at Utrecht University"
+---
+
+# Course description 
+
+Ecological theory and applications explores the major pathways of ecological theory from competition between individual species to global ecosystems. Each week, we will explore an ecological theory and then examine how that ecological theory is applied in practice through a specific case study. These case studies include examining human interactions through the lens of competition theory, conservation policy in desert systems, water management and rewilding in important Dutch ecosystems, ecological restoration across landscapes, and global climate policy. These case studies examine the consequences of ecological theory across stakeholders, systems, and scales. These case studies include two field trips by bike as well as a small experiment and will include digital guest lectures from researchers in the US and Europe. The final project for the course will examine humans as drivers of ecological processes in urban/suburban ecosystems. The course will generally take a hybrid approach with course activities occurring both in person and online. 
+
+## Entry requirements 
+
+Ecological theory and applications builds on knowledge from Ecology and Experiments. 
+
+## Study path 
+
+Ecological theory and applications is a core course of the Ecology and Wildlife Management study path. It provides good preparation for Biodiversity and Landscapes, Sustainable Development Goals, and Tropical Ecology. 
+
+## Learning objectives 
+
+The central theme of this course is how ecological theory informs and is applied in conservation, management, and policy of socio-ecological systems. At the end of the course students are expected to: 
+ -1.Understand fundamental ecological theory and how humans interact with these theories
+ -2.Understand the role of theoretical modeling in ecological research
+ -3.Formulate and modify simple theoretical models in R
+ -4.Situationally apply ecological theory and synthesize across theories for conservation, management, or policy 
+ -5.Conceptualize, develop, and present a group project applying ecological theory to an urban ecosystem 
+ 
+## Skills 
+  -	Using R for theoretical modeling 
+  -	Collecting observational data 
+  -	Processing and analyzing data in R 
+  -	Critically evaluating statistical output 
+  -	Basic plant identification of important plant families in the Netherlands
+  -	Independently searching literature for relevant articles 
+  -	Working together in small groups on relevant ecological topics 
+  -	Giving and receiving feedback with peers 
+  -	Creating content that is targeted to a specific stakeholder group 
+
+## The structure of the course 
+
+Almost all lectures will be recorded and provided to you in video format prior to class times. Class time will be used for active discussion and to give you the opportunity to ask questions. 
+Full course discussion times: 
+Mondays - 11:00 to 12:45  
+Wednesdays - 11:00 to 12:45  
+
+We also have reserved smaller classrooms for group work on site from 13:00 to 15:00 Wednesdays and Fridays. Your group will be assigned to one of the smaller classrooms upon group assignment. 
+
+## The course schedule 
+The course has two parts:
+For the first 6 weeks - Each week of the course we will examine an ecological theory and then look at how each theory is applied in ecological practice. 
+For the last 4 weeks - You will work together on a project examining the consequences of ecological theory for urban biodiversity. 
+
+### Week 1 - Competition: 25.4 - 29.4
+- 25.4: Course introduction, group surveys 
+        Discussion - Understanding how competition influences our lives 
+        Practice - getting to know you practice in R 
+- 27.4: HOLIDAY - King's Day, homework - gaming with your group (assignment #1)
+- 29.4: Discussion - Understanding competition in ecological communities
+        Practice - Using data from your games to populate a simple competition model 
+        
+### Week 2 - Facilitation: 2.5 - 6.5 
+- 2.5: Lecture - From competition to facilitation 
+       Activity - Adapting your games to include facilitation 
+       Discussion - How does facilitation change the game? 
+- 4.5: Guest lecture - Sasha Wright - Facilitation in the real world 
+       Practice - Adding facilitation into your simple competition model (assignment #2)
+- 6.5: Field trip - Facilitation in sandy soils in the NL (with podcast)
+
+### Week 3 - Environmental conditions: 9.5 - 13.5 
+Course takeover by Duygu Tolunay and Dr. Mariet Hefting 
+- 9.5: Activity - Changing the underlying resource conditions in your games 
+       Practice - How does a changing environment affect your simple competition model? (assignment #3)
+- 11.5: Case study 
+- 13.5: Case study 
+
+### Week 4 - From populations to meta-populations: 16.5 - 20.5 
+- 16.5: Lecture - Populations to meta-populations 
+        Activity - Connectedness 
+- 18.5: Field trip - Oostvarderplaasen 
+- 20.5: Practice - Adapting our model to have multiple populations (Assignment #4 Part 1)
+        Practice - Comparing data to our model predictions (Assignment #4 Part 2)
+        
+### Week 5 - From communities to meta-communities: 23.5-27.5
+-23.5: Lecture - From populations to communities 
+       Activity - Connectedness 
+-25.5: Lecture - Guest lecture - Applying meta-community theory to the restoration of degraded ecosystems 
+       Practice - If you build it, they will come (Assignment #5)
+       Mid course evaluation 
+-27.5: HOLIDAY - Ascension day 
+
+### Week 6 - Scaling up: 30.5 - 3.6
+- 30.5: Lecture - Scaling up - from our models to climate models
+        Activity - What do climate models need? 
+        Practice - Prep for panel discussion
+- 2.6: Digital panel discussion - from theory to policy 
+       Activity - Guided reflection on what we've learned in the course so far 
+- 4.6: Lecture - Connecting biodiversity theory to urban biodiversity 
+       Dicussion - What drives biodiversity in human impacted systems? 
+       
+### Week 7 - Introducing the project 
+- 6.6: HOLIDAY - Pinksterdag 
+- 8.6: Introducing the project 
+       Group discussion - What is your question?, making a research plan 
+- 10.6: Practice - Data collection 
+
+### Week 8 - The project 
+- 13.6: Practice - data collection 
+- 15.6: Lecture - intro to data analysis with R
+        Practice - data analysis 
+- 17.6: Developing science communication about findings 
+
+### Week 9 - The project 
+- 20.6: Lecture - giving and receiving feedback 
+        Practice - Peer review 
+- 22.6: Practice - Revise your projects 
+- 24.6: Project presentations (assignment #6)
+
+### Week 10 - the last week! 
+- 27.6: Exam review - bring your questions! 
+- 29.6: Study day! 
+- 1.7: Final exam 
+       
+
+
+
+
+
+
+
+
+
