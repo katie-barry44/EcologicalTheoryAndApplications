@@ -41,7 +41,7 @@ Getting to know R
 	
 ### Section 1: Creating an R markdown document, getting to know the R studio interface, and adapting R studio to meet our needs. 
 
-Watch this video - ![Getting to know R Studio](http://milton-the-cat.rocks/learnr/r/r_getting_started/#section-a-quick-tour-of-r-studio)
+Watch this video - [Getting to know R Studio](http://milton-the-cat.rocks/learnr/r/r_getting_started/#section-a-quick-tour-of-r-studio)
 
 Complete the following tasks - 
 1.	Rearrange your windows in R studio to your liking 
@@ -53,7 +53,7 @@ Complete the following tasks -
 7.	Check the R studio preferences for your R Studio. 
 
 ### Section 2: Installing packages 
-1.	Watch this video ![Installing packages](http://milton-the-cat.rocks/learnr/r/r_getting_started/#section-installing-and-loading-packages) 
+1.	Watch this video [Installing packages](http://milton-the-cat.rocks/learnr/r/r_getting_started/#section-installing-and-loading-packages) 
  - You can stop watching at about 11:36 minutes in. 
 2.	Install the package “tidyverse” 
 3.	Create a set up code chunk 
@@ -64,7 +64,7 @@ Complete the following tasks -
 ### Section 3: R Markdown 
 We are going to be using R markdown in this course. You don’t need to be able to do anything fancy with it but I find it really helpful to be able to keep all of my information together for projects until they get to be pretty advanced. Once you’ve completed your tasks for the day, you’re just going to save the document and put it into the folder labelled "To Submit" in the One Drive folder for that day. You can put notes in there for me and our student assistents. 
 
-1. Watch this video ![Using R markdown](https://youtu.be/u4ZdvYXjsIo)
+1. Watch this video [Using R markdown](https://youtu.be/u4ZdvYXjsIo)
 2.	Make an “about me” R Markdown file for yourself – Linnea and I have included our examples for you to take a look at in today’s google drive folder
 3.	Be sure to include the following sections with headings: 
     a.  	A summary of who you are, where you are from including where you did your BSc degree, what your focus was, and a picture of yourself     b.	Your scientific interests 
