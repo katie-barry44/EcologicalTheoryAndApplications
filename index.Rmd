@@ -61,58 +61,62 @@ For the last 4 weeks - You will work together on a project examining the consequ
 ### Week 1 - Competition: 25.4 - 29.4
 - 25.4: Course introduction, group surveys 
         Discussion - Understanding how competition influences our lives 
-        Practice - getting to know you practice in R 
-- 27.4: HOLIDAY - King's Day, homework - gaming with your group (assignment #1)
+        Practice - getting to know you practice in R - Assignment #1
+- 27.4: HOLIDAY - King's Day, homework - gaming with your group 
 - 29.4: Discussion - Understanding competition in ecological communities
-        Practice - Using data from your games to populate a simple competition model 
+        Practice - Using data from your games to populate a simple competition model - Assignment #2
         
 ### Week 2 - Facilitation: 2.5 - 6.5 
 - 2.5: Lecture - From competition to facilitation 
        Activity - Adapting your games to include facilitation 
        Discussion - How does facilitation change the game? 
 - 4.5: Guest lecture - Sasha Wright - Facilitation in the real world 
-       Practice - Adding facilitation into your simple competition model (assignment #2)
-- 6.5: Field trip - Facilitation in sandy soils in the NL (with podcast)
+       Practice - Adding facilitation into your simple competition model (assignment #3)
+- 6.5: Field trip - Facilitation in sandy soils in the NL (with recorded materials)
 
 ### Week 3 - Environmental conditions: 9.5 - 13.5 
 Course takeover by Duygu Tolunay and Dr. Mariet Hefting 
-- 9.5: Activity - Changing the underlying resource conditions in your games 
-       Practice - How does a changing environment affect your simple competition model? (assignment #3)
-- 11.5: Case study 
+- 9.5: Case study
+- 11.5: Activity - Changing the underlying resource conditions in your games 
+       Practice - How does a changing environment affect your simple competition model? (assignment #4)
 - 13.5: Case study 
 
 ### Week 4 - From populations to meta-populations: 16.5 - 20.5 
 - 16.5: Lecture - Populations to meta-populations 
         Activity - Connectedness 
 - 18.5: Field trip - Oostvarderplaasen 
-- 20.5: Practice - Adapting our model to have multiple populations (Assignment #4 Part 1)
-        Practice - Comparing data to our model predictions (Assignment #4 Part 2)
+- 20.5: Practice - Adapting our model to have multiple populations (Assignment #5 Part 1)
+        Practice - Comparing data to our model predictions (Assignment #5 Part 2)
         
 ### Week 5 - From communities to meta-communities: 23.5-27.5
 -23.5: Lecture - From populations to communities 
        Activity - Connectedness 
 -25.5: Lecture - Guest lecture - Applying meta-community theory to the restoration of degraded ecosystems 
-       Practice - If you build it, they will come (Assignment #5)
+       Practice - If you build it, they will come (Assignment #6)
        Mid course evaluation 
 -27.5: HOLIDAY - Ascension day 
 
-### Week 6 - Scaling up: 30.5 - 3.6
-- 30.5: Lecture - Scaling up - from our models to climate models
-        Activity - What do climate models need? 
-        Practice - Prep for panel discussion
-- 2.6: Digital panel discussion - from theory to policy 
-       Activity - Guided reflection on what we've learned in the course so far 
-- 4.6: Lecture - Connecting biodiversity theory to urban biodiversity 
-       Dicussion - What drives biodiversity in human impacted systems? 
+### Week 6 - Introducing the project
+- 30.5: Introducing the project - 
+      Discussion: What is your question?, making a research plan 
+- 1.6: Discussing in your groups re: project ideas 
+      Working through a project proposal
+- 3.6: Practice - Data collection 
+
        
 ### Week 7 - Introducing the project 
-- 6.6: HOLIDAY - Pinksterdag 
-- 8.6: Introducing the project 
-       Group discussion - What is your question?, making a research plan 
-- 10.6: Practice - Data collection 
 
+- 6.6: HOLIDAY! - Pinksterdag
+    Homework - 
+        Activity - What do climate models need? 
+        Practice - Prep for panel discussion
+- 9.6: Digital panel discussion - from theory to policy 
+       Activity - Guided reflection on what we've learned in the course so far 
+- 11.6: Lecture - Connecting biodiversity theory to urban biodiversity 
+       Dicussion - What drives biodiversity in human impacted systems? 
+       
 ### Week 8 - The project 
-- 13.6: Practice - data collection 
+- 14.6: Practice - data collection 
 - 15.6: Lecture - intro to data analysis with R
         Practice - data analysis 
 - 17.6: Developing science communication about findings 
@@ -124,9 +128,8 @@ Course takeover by Duygu Tolunay and Dr. Mariet Hefting
 - 24.6: Project presentations (assignment #6)
 
 ### Week 10 - the last week! 
-- 27.6: Exam review - bring your questions! 
-- 29.6: Study day! 
-- 1.7: Final exam 
+- 27.6: Exam review - bring your questions!
+- 29.6: Final exam 
        
 
 
