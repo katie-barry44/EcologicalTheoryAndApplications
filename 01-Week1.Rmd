@@ -20,7 +20,7 @@ We will use this survey to put you into groups so that you can best facilitate e
 
 Once you've filled out the form - You are going to make a website introducing yourself using RMarkdown.
 
-You can find the files for today's assignment in the OneDrive folder for today on Teams. 
+You can find the files for today's assignment in the shared folder for today on Teams. 
 
 ## Assignment 1 
 Getting to know R  
@@ -62,12 +62,12 @@ Complete the following tasks -
 6.	Take a screenshot of the documentation 
 
 ### Section 3: R Markdown 
-We are going to be using R markdown in this course. You don’t need to be able to do anything fancy with it but I find it really helpful to be able to keep all of my information together for projects until they get to be pretty advanced. Once you’ve completed your tasks for the day, you’re just going to save the document and put it into the folder labelled "To Submit" in the One Drive folder for that day. You can put notes in there for me and our student assistents. 
+We are going to be using R markdown in this course. You don’t need to be able to do anything fancy with it but I find it really helpful to be able to keep all of my information together for projects until they get to be pretty advanced. Once you’ve completed your tasks for the day, you’re just going to save the document and submit it to the blackboard under assignments it should be labelled "Assignment 1 - Intro to R Markdown". 
 
 1. Watch this video [Using R markdown](https://youtu.be/u4ZdvYXjsIo)
-2.	Make an “about me” R Markdown file for yourself – Linnea and I have included our examples for you to take a look at in today’s google drive folder
+2.	Make an “about me” R Markdown file for yourself – I have included an example of my own in the shared drive on our Teams page
 3.	Be sure to include the following sections with headings: 
-    a.  	A summary of who you are, where you are from including where you did your BSc degree, what your focus was, and a picture of yourself     b.	Your scientific interests 
+    a.  	A summary of who you are, where you are from including what your major is and a picture of yourself     b.	Your scientific interests 
     c.	Your experience in R, with stats in general 
     d.	Your hobbies 
 4.	At the end of this document – add a section called “The adventures in R that I have had today” include: 
@@ -140,7 +140,7 @@ You’ve received the following error – ![Error in R](./images/01-06-ErrorInR.
 
  How do you fix this issue? 
  
-*Don't forget to save your .Rmd file into today's folder labeled "To Submit"!!*
+*Don't forget to save your .Rmd file and submit it to the blackboard under assignment #1*
 
 To do's before Friday: work through the section labeled "the game" with your assigned group. 
 
@@ -159,8 +159,8 @@ You are going to examine how competition between individuals structures societie
 
 ### Step 1 - Getting to know the game 
 1.	Go to [online free settlers of catan](https://colonist.io/)
-2.	Create a room 
-3.	Invite your group mates to join you, set the game up so that it is private and hop onto the video chat platform of your choice
+2.	Create a room (NOTE: if you have a group of 5 people you will need to make sure all 5 can play)
+3.	Invite your group mates to join you, set the game up so that it is private and hop onto the video chat platform of your choice 
 4.	Set up a tutorial game and play through it as a group
 5.	Once you’ve played through the tutorial. Set up a private game. 
 6.	Take a screenshot of your starting map and save it for future reference. 
@@ -191,7 +191,7 @@ At the end of the game answer the following questions
   g.)	How did competition play out in this game? Did all players compete with other equally or were their biases in who competed with who? 
 
 ## Day 3 - 29.4.2022 
-1. Watch the lecture - 
+1. Watch the lectures - 
 2. Discuss with your group:
     a.) How do you think competition interacts with your daily life?
     b.) Do you think competition has an overall positive or negative impact on your life? 
@@ -200,7 +200,8 @@ At the end of the game answer the following questions
         How does competition in this example influence the distribution of resources?
     d.) Can you think of cultures that have more competitive versions of the example you came up with? How does the increased competition influence the distribution of resources in this example? 
     e.) Can you think of cultures that have less competitive versions of the example you came up with? How does the lessened competition influence the distribution of resources in this example? 
-3. As a group - work through the Rmarkdown file in the One Drive for today labeled "Day3-ModelingIntraspecificCompetitionInR.Rmd".
+3. As a group - work through the Rmarkdown file in the One Drive for today labeled "Day3-ModelingIntraspecificCompetitionInR.Rmd". 
+4. When you are finished submit your R markdown file to the Blackboard under "Assignment #2 - Competition". 
 
 
 
