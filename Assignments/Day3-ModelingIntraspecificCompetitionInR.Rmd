@@ -6,7 +6,8 @@ output: html_document
 ---
 
 **LEARNING GOALS** We have three major learning goals for today: 
-1. Get used to working with R Markdown for the assignments in the course. 2. Get used to working with data in R 
+1. Get used to working with R Markdown for the assignments in the course.
+2. Get used to working with data in R 
 3. Create your first ecological model in R
 
 ##Part 1: Some notes on the tutorials included in this course. 
@@ -121,7 +122,7 @@ a + 6
 
 ## Part 3: Loading packages in R 
 
-For our modeling endeavors - we are going to use the package "primer". this package was made to go along with the book "Primer of Ecology using R" ![Primer website](https://hankstevens.github.io/Primer-of-Ecology/).
+For our modeling endeavors - we are going to use the package "primer". this package was made to go along with the book "Primer of Ecology using R" [Primer website](https://hankstevens.github.io/Primer-of-Ecology/).
 
 There are two ways to install a package in R.
 
@@ -138,7 +139,7 @@ library(primer)
 
 Once the package is loaded - we have access to all of the functions included in that package. 
 
-We are going to use this package to model competition and facilitation. You can find more information about competition and facilitation here: ![Primer of Ecology Ch. 7](https://hankstevens.github.io/Primer-of-Ecology/comp.html)
+We are going to use this package to model competition.: [Primer of Ecology Ch. 7](https://hankstevens.github.io/Primer-of-Ecology/comp.html)
 
 As you know from lecture, we assume that the growth of a population depends on the amount of a population that already exists. This is called *density-dependent growth*. 
 
