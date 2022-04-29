@@ -204,15 +204,3 @@ At the end of the game answer the following questions
     e.) Can you think of cultures that have less competitive versions of the example you came up with? How does the lessened competition influence the distribution of resources in this example? 
 3. As a group - work through the Rmarkdown file in the One Drive for today labeled "Day3-ModelingIntraspecificCompetitionInR.Rmd". 
 4. When you are finished submit your R markdown file to the Blackboard under "Assignment #2 - Competition". 
-
-
-
-
-
-
-
-
-
-
-
-
