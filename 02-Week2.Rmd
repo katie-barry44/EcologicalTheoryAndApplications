@@ -1,0 +1,31 @@
+# Week 2 {#week2}
+
+In week 2 of the course, our goal is to focus on facilitation or positive interactions between organisms, you will: 
+1. Gain a basic understanding of the theory of facilitation and cooperation in ecology 
+2. Adapt your model to accomodate both multiple species and facilitation 
+3. Learn about facilitation research in plant communities
+4. Think about facilitation in context at the Vliegbasis Soesterburg 
+
+You do not need to do accomplish these objectives in any order so rather than organizing this by day, I am organizing this by missions. You can do them in this order or otherwise. 
+
+##Mission 1 - Gain a basic understanding of the theory of facilitation and cooperation in ecology and apply it to your model
+1. Replay [the game](https://colonist.io/). This time - try to maximize your cooperation. Discuss openly with your groupmates about where to place your settlements to maximize benefit for the group as a whole. Try to make sure that the group will have access to all resources efficiently. Trade resources as often as possible to maximize group resource use and benefit. Answer the following questions - 
+  a.)	Who in the group do you perceive to be the strongest competitor? 
+  b.)	Why? Do they have the most total resources? Did they specialize on a single resource? 
+  c.)	What role does luck play in the game? 
+  d.)	What role does the starting distribution of the resources play in the game? 
+  e.)	Why do you think that the winner won? 
+  f.)	How did competition play out in this game? Did all players compete with other equally or were their biases in who competed with who?
+2. [Watch my introductory lecture about cooperation and facilitation]
+3. [Watch the lecture on modeling interspecific interactions and changing competition to facilitation in our model](https://youtu.be/Sgt9mdIRWsM). 
+4. Complete assignment 3 - Day4-ModelingInterspecificInteractionsInR.Rmd (Download this from the blackboard). 
+
+## Mission 2 - Learn about facilitation research in plant communities
+
+[Dr. Sasha Wright](https://sashajwright.wixsite.com/wrightlab) is a plant community ecologist and a world expert on facilitation in plant communities under stress from changing water regimes. She focuses on how drought alters the microclimate of plant communities and how plants combat this through facilitation. She has recorded a lecture on facilitation for you to enjoy. If you have questions - please put them in the chat on Microsoft teams. 
+
+1. [Watch the lecture about facilitation from Dr. Sasha Wright] 
+
+## Mission 3 - Think about facilitation in context - FIELD TRIP 
+
+

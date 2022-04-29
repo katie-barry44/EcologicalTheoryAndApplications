@@ -192,8 +192,8 @@ At the end of the game answer the following questions
 
 ## Day 3 - 29.4.2022 
 1. Watch the lecture 
-  [Lecture 2 - Competition and refresher](https://youtu.be/MLHyM6y9_xg)
-  [Lecture 3 - Intro to the model and using R for modeling](https://youtu.be/7HyLcJhsZEo)
+ - [Lecture 2 - Competition and refresher](https://youtu.be/MLHyM6y9_xg)
+ - [Lecture 3 - Intro to the model and using R for modeling](https://youtu.be/7HyLcJhsZEo)
 2. Discuss with your group:
     a.) How do you think competition interacts with your daily life?
     b.) Do you think competition has an overall positive or negative impact on your life? 
