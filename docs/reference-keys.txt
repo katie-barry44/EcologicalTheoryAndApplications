@@ -30,6 +30,8 @@ step-1---getting-to-know-the-game
 step-2-making-competition-stronger.
 day-3---29.4.2022
 week2
+mission-1---gain-a-basic-understanding-of-the-theory-of-facilitation-and-cooperation-in-ecology-and-apply-it-to-your-model
 mission-2---learn-about-facilitation-research-in-plant-communities
-mission-3---think-about-facilitation-in-context---field-trip
-topic-r-studio-a-scavenger-hunt
+mission-3---think-about-facilitation-in-context---field-trip---park-vliegbasis-soesterberg
+some-things-i-want-you-to-think-about-as-you-wander-vliegbasis-soesterberg
+further-reading

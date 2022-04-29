@@ -8,24 +8,64 @@ In week 2 of the course, our goal is to focus on facilitation or positive intera
 
 You do not need to do accomplish these objectives in any order so rather than organizing this by day, I am organizing this by missions. You can do them in this order or otherwise. 
 
-##Mission 1 - Gain a basic understanding of the theory of facilitation and cooperation in ecology and apply it to your model
+## Mission 1 - Gain a basic understanding of the theory of facilitation and cooperation in ecology and apply it to your model
 1. Replay [the game](https://colonist.io/). This time - try to maximize your cooperation. Discuss openly with your groupmates about where to place your settlements to maximize benefit for the group as a whole. Try to make sure that the group will have access to all resources efficiently. Trade resources as often as possible to maximize group resource use and benefit. Answer the following questions - 
-  a.)	Who in the group do you perceive to be the strongest competitor? 
-  b.)	Why? Do they have the most total resources? Did they specialize on a single resource? 
-  c.)	What role does luck play in the game? 
-  d.)	What role does the starting distribution of the resources play in the game? 
-  e.)	Why do you think that the winner won? 
-  f.)	How did competition play out in this game? Did all players compete with other equally or were their biases in who competed with who?
-2. [Watch my introductory lecture about cooperation and facilitation]
+  
+  -a.)	Who in the group do you perceive to be the strongest competitor? 
+ 
+  -b.)	Why? Do they have the most total resources? Did they specialize on a single resource? 
+  
+  -c.)	What role does luck play in the game? 
+  
+  -d.)	What role does the starting distribution of the resources play in the game? 
+  
+  -e.)	Why do you think that the winner won? 
+  
+  -f.)	How did competition play out in this game? Did all players compete with other equally or were their biases in who competed with who?
+  
+2. [Watch my introductory lecture about cooperation and facilitation]()
 3. [Watch the lecture on modeling interspecific interactions and changing competition to facilitation in our model](https://youtu.be/Sgt9mdIRWsM). 
-4. Complete assignment 3 - Day4-ModelingInterspecificInteractionsInR.Rmd (Download this from the blackboard). 
+4. Complete assignment 3 - Day4-ModelingInterspecificInteractionsInR.Rmd (Download this from the blackboard or from Teams). 
 
 ## Mission 2 - Learn about facilitation research in plant communities
 
-[Dr. Sasha Wright](https://sashajwright.wixsite.com/wrightlab) is a plant community ecologist and a world expert on facilitation in plant communities under stress from changing water regimes. She focuses on how drought alters the microclimate of plant communities and how plants combat this through facilitation. She has recorded a lecture on facilitation for you to enjoy. If you have questions - please put them in the chat on Microsoft teams. 
+[Dr. Sasha Wright](https://sashajwright.wixsite.com/wrightlab) is an assistant professor at California State University in Los Angeles, a plant community ecologist, and an expert on facilitation in plant communities under stress from changing water regimes. She focuses on how drought alters the microclimate of plant communities and how plants combat this through facilitation. She has recorded a lecture on facilitation for you to enjoy. If you have questions - please put them in the chat on Microsoft teams. 
 
-1. [Watch the lecture about facilitation from Dr. Sasha Wright] 
+1. [Watch the lecture about facilitation from Dr. Sasha Wright](https://youtu.be/3yjR9DugdYM)
 
-## Mission 3 - Think about facilitation in context - FIELD TRIP 
+## Mission 3 - Think about facilitation in context - FIELD TRIP - Park Vliegbasis Soesterberg 
+
+This week - your third mission is to take a trip to the [Park Vliegbasis Soesterberg](https://utrechtslandschap.nl/natuurgebieden/park-vliegbasis-soesterberg/park-vliegbasis-soesterberg). This area was formerly an air base up through the cold war and was restored to a natural area starting in 2008 by Utrechts Landschap. 
+
+Facilitation is one of the main drivers that has enabled Vliegbasis Soesterberg to go from a military base to a natural area. 
+
+In a site like this - we expect lots of facilitation for a few reasons: 
+1. The soils in Soesterberg are especially nutrient poor. Throughout the Netherlands many grasslands have Nitrogen added to them. When Nitrogen is added on sandy soils - species richness tends to decline as a few very dominant species take over. At Vliegbasis Soesterberg - the Ministry of Defense decided not to add Nitrogen to the soils because it encourages bird colonization and the birds were always getting stuck in the airplane engines! 
+
+The decision not to add nitrogen to the soils here had the unintended consequence of enabling lots of different species of grasses to coexist. This coexistence is often driven by facilitation! 
+
+2. Military bases are really stressful for plants. 
+
+As you walk around Vliegbasis Soesterberg you will see a lot of military equipment like this tank. ![Soesterberg tank](./images/Soesterberg-Tank.png)
+
+This type of military equipment causes TONS of soil degradation making the environment very physically stressful for plants. When the environment gets stressful, facilitation is one of the ways that plant communities combat this stress. 
+
+3. All around Vliegbasis Soesterberg you see a matrix of different ecosystem types from grasslands to forests. ![Soesterberg ecosystem matrix](./images/Soesterberg-Succession.png)
+
+Because of the relatively young age of this ecosystem - the area is actively undergoing the process of [secondary succession](https://www.youtube.com/watch?v=jZKIHe2LDP8). 
+
+Facilitation is a major driver of secondary succession. Grasses colonize easily and make the environment friendly for shrubs which make the environment friendly for trees and so on. 
+
+### Some things I want you to think about as you wander Vliegbasis Soesterberg 
+1. How have human interactions shaped this landscape? Are these positive or negative? Both?
+2. How does stress impact this landscape? Can you see the stress? Are plants mitigating this stress? 3. Do the plants look different here than they do in other locations? Does the ecosystem look healthy? 
+
+
+## Further reading 
+You can read more about Vliegbasis Soesterberg [here](https://utrechtslandschap.nl/natuurgebieden/vliegbasis-soesterberg/meer-informatie)
+
+You can read more about facilitation and coexistence [here](https://besjournals-onlinelibrary-wiley-com.proxy.library.uu.nl/doi/10.1111/j.1365-2745.2007.01295.x) - The PDF is also on the Teams! 
+
+You can read more about facilitation and stress [here](https://news.brown.edu/articles/2013/01/ecostress). 
 
 
