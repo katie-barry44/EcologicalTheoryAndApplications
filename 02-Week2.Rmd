@@ -23,7 +23,7 @@ You do not need to do accomplish these objectives in any order so rather than or
   
   -f.)	How did competition play out in this game? Did all players compete with other equally or were their biases in who competed with who?
   
-2. [Watch my introductory lecture about cooperation and facilitation]()
+2. [Watch my introductory lecture about cooperation and facilitation](https://youtu.be/_dee-qjs1ik)
 3. [Watch the lecture on modeling interspecific interactions and changing competition to facilitation in our model](https://youtu.be/Sgt9mdIRWsM). 
 4. Complete assignment 3 - Day4-ModelingInterspecificInteractionsInR.Rmd (Download this from the blackboard or from Teams). 
 
