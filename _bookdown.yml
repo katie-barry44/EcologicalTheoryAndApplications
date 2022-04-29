@@ -2,7 +2,7 @@ book_filename: "Ecology2"
 output_dir: "docs"
 language:
   ui:
-    chapter_name: "Week "
+    chapter_name: ""
 delete_merged_file: true
 edit: https://github.com/katie-barry44/EcologicalTheoryAndApplications/edit/master/%s
 view: https://github.com/Ykatie-barry44/EcologicalTheoryAndApplications/blob/master/%s
