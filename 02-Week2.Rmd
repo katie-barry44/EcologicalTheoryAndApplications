@@ -6,7 +6,13 @@ In week 2 of the course, our goal is to focus on facilitation or positive intera
 3. Learn about facilitation research in plant communities
 4. Think about facilitation in context at the Vliegbasis Soesterburg 
 
-You do not need to do accomplish these objectives in any order so rather than organizing this by day, I am organizing this by missions. You can do them in this order or otherwise. 
+You do not need to do accomplish these objectives in any order so rather than organizing this by day, I am organizing this by missions. You can do them in this order or otherwise.   
+
+**Your check list for the week:**  
+ - [  ] Turn in Assignment #3 - Day4-ModelingInterspecificInteractionsInR.Rmd  
+ - [  ] Watch lectures   
+ - [  ] Visit Vliegbasis Soesterberg  
+      -- *Official visit with Katie is on Friday 5.5 - 13:15, meet at the tank*
 
 ## Mission 1 - Gain a basic understanding of the theory of facilitation and cooperation in ecology and apply it to your model
 1. Replay [the game](https://colonist.io/). This time - try to maximize your cooperation. Discuss openly with your groupmates about where to place your settlements to maximize benefit for the group as a whole. Try to make sure that the group will have access to all resources efficiently. Trade resources as often as possible to maximize group resource use and benefit. Answer the following questions - 
