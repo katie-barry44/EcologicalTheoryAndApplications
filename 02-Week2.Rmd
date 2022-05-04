@@ -12,7 +12,7 @@ You do not need to do accomplish these objectives in any order so rather than or
  - [  ] Turn in Assignment #3 - Day4-ModelingInterspecificInteractionsInR.Rmd  
  - [  ] Watch lectures   
  - [  ] Visit Vliegbasis Soesterberg  
-      -- *Official visit with Katie is on Friday 5.5 - 13:15, meet at the tank*
+      -- *Official visit with Katie is on Friday 6.5 - 13:15, meet at the tank outside of the military history museum*
 
 ## Mission 1 - Gain a basic understanding of the theory of facilitation and cooperation in ecology and apply it to your model
 1. Replay [the game](https://colonist.io/). This time - try to maximize your cooperation. Discuss openly with your groupmates about where to place your settlements to maximize benefit for the group as a whole. Try to make sure that the group will have access to all resources efficiently. Trade resources as often as possible to maximize group resource use and benefit. Answer the following questions - 
