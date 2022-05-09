@@ -5,7 +5,7 @@ In week 3 of the course, you will focus on how the environment alters community 
 *Just a reminder: this week is almost completely in person so please come to class in person!* 
 
 This week's checklist:  
-- [  ]Turn in R assignment 4 - Day 8 - Modeling the Environment  
+- [  ]Turn in R assignment 4 - Day 8 - Modeling the Environment can be found on Teams, on Blackboard, or in your email!   
 - [  ]Work together as a group on your presentations for Duygu's assignment
 
 ## Day 7 - 9. May 2022 
