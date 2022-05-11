@@ -1,0 +1,48 @@
+# Week 4 {#week4}
+
+In week 4 of the course, we are taking our populations and putting them in space by creating metapopulations!  
+
+This week's checklist is: 
+[  ] R Markdown assignment #5 - Day10-ConnectingPopulations.Rmd   
+[  ] Word document for each group describing your hypothesis, method for testing your hypothesis, and statistical design for the Oostvaardersplassen grazing question   
+
+This week can be very clearly structured into three sections: 
+1. **Theory** - where we discuss the theory of meta-populations and try to connect the course.   
+2. **Application** - Discussing how meta-population theory applies to management of large animal populations.   
+3. **Synthesis** - You take what we've discussed and turn it into an idea for a project.   
+
+## Day 10 - 16.5.2022 - Theory
+
+The theory lecture can be found here but will also be given live on Monday!   
+
+You can also find the explanation for this week's modeling components here.  
+
+Complete the modeling assignment on meta-populations which you can find on the Blackboard, in Teams, or in your email! It should be turned in via Teams.   
+
+## Day 11 - 18.5.2022 - Application
+
+The lecture on application can be found here but will also be given live on Wednesday!   
+
+You can find the additional literature that you can use to support your hypotheses in the Teams Files folder or on the Blackboard.   
+
+**Optional Field Trip** 
+
+If you would like to join Katie for the optional field trip at the Oostvaardersplassen -   
+- 14:00 in front of the Natuurbelegincentrum De Oostvaarders   
+
+**Your assignment** 
+
+1. Develop a hypothesis for what is causing plant species decline in the Oostvaardersplassen   
+2. Develop a method for testing this hypothesis   
+3. Develop a statistical test for testing this hypothesis   
+
+Your explanation should include: 
+ - How meta-population dynamics contribute to the different effects of our grazer populations at the Oostvaardersplassen 
+ - At least, one of the three theoretical components we’ve discussed:   
+  - Competition   
+  - Facilitation   
+  - Abiotic conditions  
+
+## Day 12 - 20.5.2022 - Synthesis 
+
+Work in your groups to complete the assignment. Please submit a word document describing and justifying your hypothesis, method, and statistical test. 

@@ -30,7 +30,7 @@ Plan -
   - Litter quality   
   - Nutrients   
 
-In the afternoon, you should work on the R assignment for the week.   
+In the afternoon, you should work on the R assignment for the week in your designated work room: BBG 161,165, or 223. Katie will also stop by to solve R problems. :)
 
 You can find the explanation for this week's short modeling assignment [here](https://youtu.be/tvEakJujUw4)  
 
@@ -38,7 +38,7 @@ The R markdown file is on the Teams site and the blackboard and can be submitted
 
 *Also planned* - 
 Working on article research and reading  
-Discussing in your groups and preparing presentations   
+Discussing in your groups and preparing presentations     
 
 ## Day 9 - 13. May 2022 
 
