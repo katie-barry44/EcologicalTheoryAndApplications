@@ -44,7 +44,7 @@ This function models our population in isolation. Individuals are being born but
 Outside - groups of species are connected to each other. 
 
 For example: 
-![Meta populations to populations](./images/10-01-MetapopulationPopulation.png)
+![Meta populations to populations](../images/10-01-MetapopulationPopulation.png)
 
 In order to model this in R, we use the function "hanski". This is a meta-population model where all populations are connected. We still need to give the function four pieces of information: 
 - y0 -the starting fraction of the population (between 0 and 1)
@@ -75,6 +75,7 @@ Play around with a few different values of ci and e.
 1. What happens when you increase ci alone? 
 2. What happens when you increase e alone?
 3. What happens when e is greater than ci? 
+4. What happens if p is zero? 
 
 ### Part 4: Disconnecting our metapopulations 
 One of the largest causes of biodiversity loss is land use change. The way that land use change causes biodiversity loss is through habitat fragmentation which decreases connectivity between populations within a meta-population. This can cause an extinction vortex as these small populations decrease in size and genetic diversity until local extinction. 
