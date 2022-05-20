@@ -43,3 +43,7 @@ week4
 day-10---16.5.2022---theory
 day-11---18.5.2022---application
 day-12---20.5.2022---synthesis
+week5
+day-13---23.5.2022---theory
+day-14---25.5.2022---application
+day-15---27.5.2022---no-class-holiday

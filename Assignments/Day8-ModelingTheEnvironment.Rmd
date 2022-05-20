@@ -88,6 +88,6 @@ plot(out)
 ```
 
 Questions: 
-1. What happens to our aerobic species in a suddently anaerobic environment? 
+1. What happens to our aerobic species in a suddenly anaerobic environment? 
 2. Does population change happen quickly or slowly? 
 
