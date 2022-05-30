@@ -47,3 +47,10 @@ week5
 day-13---23.5.2022---theory
 day-14---25.5.2022---application
 day-15---27.5.2022---no-class-holiday
+week6
+day-16---30-may-2022
+day-17---1-june-2022
+day-18---3-june-2022
+project-description
+requirements-for-the-project-proposal
+how-the-project-will-be-graded

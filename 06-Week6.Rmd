@@ -1,0 +1,97 @@
+# Week 6 {#week6}
+
+In week 6 of the course, you are all preparing project proposals and preparing for the panel discussion next Wednesday (June 8th) about "How theory influences global climate and biodiversity policy".   
+
+This week's checklist:   
+[  ] Submit your project proposal   
+[  ] Submit questions for next week's panel discussion   
+[  ]Read the synopsis of the [IPBES/IPCC joint report](https://zenodo.org/record/5101125#.YoeUzOxBz0o) for Week 7 of the course  
+[  ]Read the [summary for policy makers of the IPBES Report](https://zenodo.org/record/3553579#.YoeV1uxBz0o)   
+[  ]Make a list of at least five recommendations that are based on the theories that we've discussed in class (Does not need to be submitted)  
+
+This week your schedule is much looser to accomodate your work on your project proposal and prep for next week. There is only one lecture! 
+
+## Day 16 - 30 May 2022 
+
+Lecture will be recorded live in person to make sure that the questions about the project are recorded to the best extent possible. 
+
+## Day 17 - 1 June 2022 
+
+Work on your project proposals and reading for next week 
+
+## Day 18 - 3 June 2022 
+
+Turn in your project proposals and questions for next week's panel discussion 
+
+## Project description 
+
+**Learning objectives:**
+1.	Conceptualize, develop, and present a group project applying ecological theory to an urban ecosystem   
+
+**Skills:** 
+-	Collecting observational data   
+-	Processing and analyzing data in R   
+-	Critically evaluating statistical output   
+-	Independently searching literature for relevant articles   
+-	Working together in small groups on relevant ecological topics   
+-	Giving and receiving feedback with peers   
+-	Creating content that is targeted to a specific stakeholder group   
+
+**Background:**  
+Humans are changing Earth’s systems on an unprecedented scale massively altering our environment (IPCC 2014; IPBES 2019). These changes to how the earth functions directly and indirectly change dynamics in plant communities (IPCC 2014; Newbold et al. 2015). These changes are most evident in urban ecosystems where humans act as the primary ecological driver and which are far more abundant now than at any point in human history (Ramalho and Hobbs 2012).    
+	Urban ecosystems are innately socioecological meaning that human societal and cultural pressures effect ecological dynamics creating environmental gradients. These gradients alter each of the theories that we’ve discussed in class. We add nitrogen through car exhaust changing competitive dynamics to favor large species that can asymmetrically outcompete their neighbors leading to declines in biodiversity in high nitrogen systems (Hautier, Niklaus, and Hector 2009). We create stress gradients across landscapes by increasing biodiversity in areas of high income over areas of low income (Kuras et al. 2020) altering the reliance of plant communities on facilitation. We sequester parks in certain areas of our cities lowering dispersal among meta-populations and meta-communities resulting in local extinction of many native species (Andrade et al. 2021). These negative effects are sometimes offset by humans’ ability to disperse. Many invasive species and exotic species support ecosystem functioning in some capacity and their dispersal is supported by humans who bring them into ecosystems accidentally or on purpose.    
+	In this project – you will pick an human environmental gradient in Utrecht, develop a hypothesis for how it alters a theory discussed in class (competition, facilitation, meta-populations, meta-communities), develop a prediction for how these alterations to the underlying theory of an ecosystem will alter diversity at any scale, collect data to test this prediction (either via field work or using the Gemeente Utrecht Data Portal - https://data.utrecht.nl/), and test this prediction using an appropriate statistical test. Finally, you will develop a scientific communication project to communicate your theory and results to residents of Utrecht and the relevance of Utrecht as an ecological space.  
+
+Some potential gradients in Utrecht that you can take advantage of:    
+1.	Socioeconomic – will influence biodiversity, temperature, soil moisture (Beumer and Martens 2016)  
+2.	Rural to urban – will influence temperature via the Urban Heat Island effect, soil compaction, connectivity (Brandsma and Wolters 2012)  
+3.	Near vs. far from water – will influence temperature and biodiversity (Beninde, Veith, and Hochkirch 2015)  
+4.	Near vs. far from roads – will influence nitrogen and connectivity (Beninde, Veith, and Hochkirch 2015)  
+
+## Requirements for the project proposal: 
+1.	A one paragraph description of the gradient that you will focus on that ends with a hypothesis and a prediction for a measurable variable   
+2.	A short description of your proposed methods that includes:   
+    a.	Whether you will collect data or use publicly available data from the [Gemeente Utrecht Databank](data.utrecht.nl)     
+    b.	A proposed statistical method for analyzing your data   
+3.	A short description of your proposed format for your final project   
+     a.	Some potential formats for your final project    
+       1.	Brochure   
+       2.	Youtube video   
+       3.	Website   
+       4.	Wikipedia article   
+       5.	Planned outreach event   
+
+### How the project will be graded
+**Project proposal	- 25%**   
+1.	Is the hypothesis testable?   
+2.	Are the methods likely to result in data that tests the hypothesis?   
+3.	Is the statistical analysis appropriate?  
+
+**Research quality	- 25%**  
+1.	Is the project grounded in one of the ecological theories discussed in class?     
+2.	Is the prediction logical and well defended based on this theory?   
+3.	Are the conclusions sound and related back to the theory in which the project is grounded?  
+
+**Research methods	- 25%**    
+1.	Are the methods clearly described and repeatable?   
+2.	Are statistical analyses interpreted correctly?   
+3.	Are the results described in an appropriate way?  
+
+**Communication	- 25%**   
+1.	Is the project targeted towards the general public?   
+2.	Does the communication include an explanation of the theory?   
+3.	Does the communication make the relevance of the research findings clear?   
+4.	Is the final result visually appealing and well designed?  
+
+**Works cited (Links included):**  
+Andrade, Riley, Janet Franklin, Kelli L. Larson, Christopher M. Swan, Susannah B. Lerman, Heather L. Bateman, Paige S. Warren, and Abigail York. 2021. “Predicting the Assembly of Novel Communities in Urban Ecosystems.” Landscape Ecology 36 (1): 1–15. https://doi.org/10.1007/s10980-020-01142-1.  
+Beninde, Joscha, Michael Veith, and Axel Hochkirch. 2015. “Biodiversity in Cities Needs Space: A Meta-Analysis of Factors Determining Intra-Urban Biodiversity Variation.” Ecology Letters 18 (6): 581–92. https://doi.org/10.1111/ele.12427.  
+Beumer, Carijn, and Pim Martens. 2016. “BIMBY’s First Steps: A Pilot Study on the Contribution of Residential Front-Yards in Phoenix and Maastricht to Biodiversity, Ecosystem Services and Urban Sustainability.” Urban Ecosystems 19 (1): 45–76. https://doi.org/10.1007/s11252-015-0488-y.  
+Brandsma, Theo, and Dirk Wolters. 2012. “Measurement and Statistical Modeling of the Urban Heat Island of the City of Utrecht (the Netherlands).” Journal of Applied Meteorology and Climatology 51 (6): 1046–60. https://doi.org/10.1175/JAMC-D-11-0206.1.  
+Hautier, Yann, Pascal A. Niklaus, and Andy Hector. 2009. “Competition for Light Causes Plant Biodiversity Loss After Eutrophication.” Science 324 (5927): 636–38. https://doi.org/10.1126/science.1169640.  
+IPBES. 2019. “Summary for Policymakers of the Global Assessment Report on Biodiversity and Ecosystem Services,” November. https://doi.org/10.5281/zenodo.3553579.  
+IPCC. 2014. “Climate Change 2014: Synthesis Report. Contribution of Working Groups I, II and III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change.” 5. Geneva, Switzerland: IPCC.  
+Kuras, Evan R., Paige S. Warren, John Aloysius Zinda, Myla F. J. Aronson, Sarel Cilliers, Mark A. Goddard, Charles H. Nilon, and Richelle Winkler. 2020. “Urban Socioeconomic Inequality and Biodiversity Often Converge, but Not Always: A Global Meta-Analysis.” Landscape and Urban Planning 198 (June): 103799. https://doi.org/10.1016/j.landurbplan.2020.103799.  
+Newbold, Tim, Lawrence N. Hudson, Samantha L. L. Hill, Sara Contu, Igor Lysenko, Rebecca A. Senior, Luca Börger, et al. 2015. “Global Effects of Land Use on Local Terrestrial Biodiversity.” Nature 520 (7545): 45–50. https://doi.org/10.1038/nature14324.  
+Ramalho, Cristina E., and Richard J. Hobbs. 2012. “Time for a Change: Dynamic Urban Ecology.” Trends in Ecology & Evolution 27 (3): 179–88. https://doi.org/10.1016/j.tree.2011.10.008.  
+
