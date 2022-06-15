@@ -11,7 +11,7 @@ week-3---environmental-conditions-9.5---13.5
 week-4---from-populations-to-meta-populations-16.5---20.5
 week-5---from-communities-to-meta-communities-23.5-27.5
 week-6---introducing-the-project
-week-7---introducing-the-project
+week-7
 week-8---the-project
 week-9---the-project
 week-10---the-last-week

@@ -93,7 +93,6 @@ Course takeover by Duygu Tolunay and Dr. Mariet Hefting
        Activity - Connectedness 
 -25.5: Lecture - Guest lecture - Applying meta-community theory to the restoration of degraded ecosystems 
        Practice - If you build it, they will come (Assignment #6)
-       Mid course evaluation 
 -27.5: HOLIDAY - Ascension day 
 
 ### Week 6 - Introducing the project
@@ -103,8 +102,7 @@ Course takeover by Duygu Tolunay and Dr. Mariet Hefting
       Working through a project proposal
 - 3.6: Practice - Data collection 
 
-       
-### Week 7 - Introducing the project 
+### Week 7 
 
 - 6.6: HOLIDAY! - Pinksterdag
     Homework - 
@@ -112,14 +110,11 @@ Course takeover by Duygu Tolunay and Dr. Mariet Hefting
         Practice - Prep for panel discussion
 - 9.6: Digital panel discussion - from theory to policy 
        Activity - Guided reflection on what we've learned in the course so far 
-- 11.6: Lecture - Connecting biodiversity theory to urban biodiversity 
-       Dicussion - What drives biodiversity in human impacted systems? 
+
        
 ### Week 8 - The project 
-- 14.6: Practice - data collection 
-- 15.6: Lecture - intro to data analysis with R
-        Practice - data analysis 
-- 17.6: Developing science communication about findings 
+
+All week this week, you are collecting data for your projects. 
 
 ### Week 9 - The project 
 - 20.6: Lecture - giving and receiving feedback 
